@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <label for="user">Username:</label>
+        <input id="user" type="text" maxlength="8" minlength="2" placeholder="Enter Username">
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter Email">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <form action="userForm">
+        <label for="pass">Password:</label>
+        <input type="password" name="" id="pass">
+        <br>
+
+        <label for="ph">Phone Number:</label>
+        <input type="tel">
+
+        <br>
+
+        <label for="male">Male</label>
+        <input name="gender" type="radio" id="male">
+        <label for="female">Female</label>
+        <input name="gender" type="radio" id="female">
+        <label for="other">Prefer not to say</label>
+        <input name="gender" type="radio" id="other">
+
+
+        <label for="">Enter your Skills:</label>
+        <input value="html" id="html" type="checkbox">
+        <label for="html">HTML</label>
+
+        <input value="js" id="js" type="checkbox">
+        <label for="js">JavaScript</label>
+
+        <input value="java" id = "java" type="checkbox">
+        <label for="java">Java</label>
+
+        <input value="py" id="py" type="checkbox">
+        <label for="py">Python</label>
+
+        <label for="cntry">Select Your Country</label>
+        <select name="" size="2" multiple id="cntry">
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Australia">Australia</option>
+        </select>
+
+        <label for="hobby">Enter your hobby</label>
+        <input type="text" list="hobby">
+        <datalist id="hobby">
+            <option value=""></option>
+        </datalist>
+
+    </form>
+
+</body>
+</html>
