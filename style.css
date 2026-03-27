@@ -30,3 +30,19 @@ nav {
     background: #007BFF;
     color: #fff;
 }
+
+ @media screen and (max-width : 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 10rem;
+        gap:8px;
+    }
+
+    .pages {
+        flex-direction: column;
+        justify-content: space-between;
+        gap:8px;
+    }
+}
